@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Promptify",
+  "version": "1.0",
+  "description": "Enhance AI prompts anywhere",
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}
